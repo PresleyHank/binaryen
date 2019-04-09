@@ -329,8 +329,9 @@ def update_reduce_tests():
 
 
 def main():
-  update_asm_js_tests()
   lld.update_lld_tests()
+  return
+  update_asm_js_tests()
   update_wasm_opt_tests()
   update_bin_fmt_tests()
   update_example_tests()
